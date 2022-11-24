@@ -1,15 +1,14 @@
 package edu.serjmaks.junit.ex02.task2.task2_VI.controller;
 
-import org.junit.jupiter.api.Test;
-
-import edu.serjmaks.junit.ex02.task2.task2_VI.controller.BookAction;
-import edu.serjmaks.junit.ex02.task2.task2_VI.model.Author;
-import edu.serjmaks.junit.ex02.task2.task2_VI.model.Book;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+import edu.serjmaks.junit.ex02.task2.task2_VI.model.Author;
+import edu.serjmaks.junit.ex02.task2.task2_VI.model.Book;
 
 class BookActionTest {
 

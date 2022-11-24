@@ -1,14 +1,14 @@
 package edu.serjmaks.junit.ex02.task1.controller;
 
-import org.junit.jupiter.api.Test;
-
-import edu.serjmaks.junit.ex02.task1.controller.ClientActions;
-import edu.serjmaks.junit.ex02.task1.model.Account;
-import edu.serjmaks.junit.ex02.task1.model.Client;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+import edu.serjmaks.junit.ex02.task1.model.Account;
+import edu.serjmaks.junit.ex02.task1.model.Client;
 
 class ClientActionsTest {
 

@@ -4,8 +4,6 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import edu.serjmaks.junit.ex03.Client;
-
 public class ClientMock implements Client {
 
     @Override

@@ -4,8 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import edu.serjmaks.junit.ex05.FindMaxSAfter;
-
 public class FindMaxSAfterTest {
 
     @Test
