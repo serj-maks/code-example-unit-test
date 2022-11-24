@@ -11,10 +11,8 @@ public class PollServiceImplTest {
     void getById_ShouldReturnPoll() {
         PollServiceImpl pollServiceImpl = new PollServiceImpl(new DaoMock());
         long id = 1L;
-
-        Poll actual = pollServiceImpl.getById(id);
-
         Poll expected = new Poll(1L, "name", "description");
+        Poll actual = pollServiceImpl.getById(id);
         assertEquals(expected, actual);
     }
 
